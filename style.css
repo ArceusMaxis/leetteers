@@ -21,8 +21,8 @@ body {
     display: flex;
 }
 #toggle {
-    margin-left: 95%;
     margin-right: 30px;
+    margin-left: 73%;
     background-color: inherit;
     height: 40px;
     width: 40px;
@@ -47,7 +47,7 @@ body {
     justify-content: space-between;
     overflow: auto;
     margin: auto;
-    width: 80%;
+    width: 1160px;
     height: 800px;
     background-color:#1687a7;
     overflow: hidden;
@@ -56,19 +56,9 @@ body {
     border-width: 5px,5px,5px,5px;
     border-radius: 20px;
 }
-#time {
-    margin: 2%;
-    height: 40px;
-    width: max-content;
-    background-color: #eeeeee;
-    border: none;
-    border-radius: 5px;
-    font-family: 'Roboto Mono', monospace;
-    text-decoration: none;
-    font-size: 30px;
-}
 #sender {
-    margin: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
     height: 35px;
     width: 400px;
     background-color: #eeeeee;
@@ -81,7 +71,7 @@ body {
     font-size: 30px;
 }
 #message {
-    margin: 2%;
+    margin-left: 2%;
     width: 95%;
     height: 500px;
     background-color: #eeeeee;
@@ -92,4 +82,17 @@ body {
     line-height: 1em;
     text-overflow: clip;
     font-size: 30px;
+}
+.submit {
+    background-color: #0b4252;
+    color: #eeeeee;
+    font-family: "Roboto Mono";
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 82.5%;
+    margin-bottom: 30px;
+    border-style: none;
+    border-radius: 20px;
+    width: 170px;
+    height: 140px;
 }
