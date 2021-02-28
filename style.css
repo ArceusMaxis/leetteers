@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css2?family=Monoton&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap);
+
+body {
+    padding: 25px;
+    background-color: white;
+    color: #222222;
+    font-size: 25px;
+}
+.dark-mode {
+    background-color:#222222;
+    color: white;
+}
+#navbar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+}
+#toggle {
+    margin-left: 95%;
+    margin-right: 30px;
+    background-color: inherit;
+    height: 40px;
+    width: 40px;
+    border-radius: 25%;
+    text-align: left;
+    border: none;
+}
+.button {
+    font-size: 25px;
+    margin-left: -20%;
+    margin-top: -12.5%;
+}
+.logo {
+    font-family: "Monoton";
+    text-decoration: none;
+    color: #1687a7;
+    font-size: 50px;
+}
+.letter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: auto;
+    margin: auto;
+    width: 80%;
+    height: 800px;
+    background-color:#1687a7;
+    overflow: hidden;
+    border: none;
+    border-color: #1687a7;
+    border-width: 5px,5px,5px,5px;
+    border-radius: 20px;
+}
+#time {
+    margin: 2%;
+    height: 40px;
+    width: max-content;
+    background-color: #eeeeee;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    font-size: 30px;
+}
+#sender {
+    margin: 2%;
+    height: 35px;
+    width: 400px;
+    background-color: #eeeeee;
+    border: none;
+    border-color: #eeeeee;
+    border-width: 1%,1%,1%,1%;
+    border-radius: 5px;
+    align-items: right;
+    text-overflow: clip;
+    font-size: 30px;
+}
+#message {
+    margin: 2%;
+    width: 95%;
+    height: 500px;
+    background-color: #eeeeee;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    padding: 0;
+    line-height: 1em;
+    text-overflow: clip;
+    font-size: 30px;
+}
