@@ -2,8 +2,8 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="./style.css">
 <title>Leetteers</title>
+<link rel="stylesheet" href="./style.css">
 </head>
 <body>
 <!--scripts-->
@@ -16,12 +16,14 @@
     <div class="button">🌓</div>
     </button>
 </div>
-<!--input boxes-->
-<div class="letter">
-    <input type="datetime-local" name="time" id="time"></input>
-    <textarea type="text" name="sender" id="sender">Your Name...</textarea>
-    <textarea type="text" name="message" id="message">Your Message...</textarea>
-</div>
+<!--input boxes using GetForm-->
+<form action="https://getform.io/f/33a1233d-0c3c-4ec6-8fab-98913039c9d3" method="POST" class="letter">
+
+    <textarea type="email" name="email" id="sender">Your Email</textarea>
+    <textarea type="text" name="message" id="message">Your message goes here....</textarea>
+    <button type="submit" class="submit">Send</button>
+  
+  </form>
 <!--the end-->
 </body>
 </html>
